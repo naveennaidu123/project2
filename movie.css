@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home Section */
+.poster-slider {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.poster-slider img {
+    width: 100%;
+    height: auto;
+}
+
+/* Character Bios Section */
+.character-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.character-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.character-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Trailers Section */
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Quote of the Day Section */
+#quote {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Trivia Quiz Section */
+#quiz-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#quiz-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+#quiz-container li {
+    margin: 10px 0;
+}
+
+#next-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

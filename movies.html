@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Buff Central - Devara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="stylesheet" href="movie.css"/>
+<script href="movie.js"></script>
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Movie Buff Central - Devara</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#characters">Character Bios</a></li>
+                <li><a href="#trailers">Trailers</a></li>
+                <li><a href="#quote">Quote of the Day</a></li>
+                <li><a href="#quiz">Trivia Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Movie Buff Central</h2>
+        <p>Your ultimate fan page for the movie Devara, starring Junior NTR.</p>
+        <div class="poster-slider">
+            <img id="poster" src="https://filmfare.wwmindia.com/content/2024/jun/jrntrjanhvikapoor21718693255.jpg" alt="Devara Poster">
+        </div>
+    </section>
+
+    <!-- Character Bios Section -->
+    <section id="characters">
+        <h2>Character Bios</h2>
+        <div class="character-grid">
+            <div class="character-card">
+                <img src="https://files.prokerala.com/news/photos/imgs/1024/ntr-1588780.jpg" alt="Junior NTR">
+                <h3>Junior NTR as Devara</h3>
+                <p>Junior NTR stars as the powerful and charismatic Devara, a character known for his bravery and leadership in the upcoming action-packed film.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Embedded Movie Trailers Section -->
+    <section id="trailers">
+        <h2>Watch Trailers</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HNYA6bqL6bU" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <!-- Quote of the Day Section -->
+    <section id="quote">
+        <h2>Quote of the Day</h2>
+        <p id="random-quote"></p>
+    </section>
+
+    <!-- Trivia Quiz Section -->
+    <section id="quiz">
+        <h2>Trivia Quiz</h2>
+        <div id="quiz-container">
+            <p id="question"></p>
+            <ul id="choices"></ul>
+            <button id="next-btn">Next</button>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
